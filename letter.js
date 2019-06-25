@@ -9,15 +9,15 @@ var Letter = function(letter) {
        case "letter":
        return this.letter;
        break;
-       case "non-letter":
+       case "nonLetter":
        return "_";
        break;
      }
   },
   letterPlaceholder();
 
-this.letterCheck = function(check) {
-    if((check === this.letter {
+this.guess = function(guess) {
+    if((guess === this.letter {
       this.guessedLetter = true;
 
   };
