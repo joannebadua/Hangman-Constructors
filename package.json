@@ -1,0 +1,23 @@
+{
+  "name": "Hangman-Constructors",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannebadua/Hangman-Constructors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joannebadua/Hangman-Constructors/issues"
+  },
+  "homepage": "https://github.com/joannebadua/Hangman-Constructors#readme",
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  }
+}
