@@ -10,7 +10,7 @@ Feel free to Google-fu "LGBTQ+ Landmark cases." You might learn a thing or two a
 
 The game will randomly select a casename and uses the Word constructor to store it.
 
-Your job is to guess the casename by typing in letters. You can guess as many as you want. 
+Your job is to guess the casename by typing in letters. You can guess as many as you want. If you're stuck, scroll up beyond the ASCII design rainbow with motivational message.
 
 Please note, the game is case-sensitive. A hint is that the first letter of the case name (which is usually the name of one of the parties in the suit), will be capitalized.
 
@@ -18,11 +18,7 @@ Feel free to contact me about your experience with the game, or want to know mor
 
 ### Sample
 Since this is a command-line application, meaning it cannot be deployed on the web, 
-<<<<<<< HEAD
 [click here to watch a video of how it works via Youtube](https://youtu.be/ifzUu9qyHU8)
-=======
-[click here to watch a video of how it works via Youtube](https://youtu.be/O87tW4UWDfU)
->>>>>>> c4a0f46bdcdbff31e25b41e54c29193a0ea890ed
 
 ### Technology and How the Sausage Got Made
 This game is made possible by rainbows, love and the following:
@@ -38,4 +34,4 @@ The letter constructor displays either an underlying character or a blank placeh
 The word constructor creates an object representing the current word the user is attempting to guess. The following are defined in the constructor: (1) an array of new Letter objects representing the letters of the underlying word, (2) a function that returns a string representing the word that calls the function on each letter object (the first function defined in Letter.js) that displays the character or an underscore and concatenate those together, (3) a function that takes a character as an argument and calls the guess function on each letter object (the second function defined in Letter.js)
 
 ## Author
-* **Joey Badua** - [LIRI-Node-App](https://github.com/joannebadua)
+* **Joey Badua** - [Hangman-Constructors](https://github.com/joannebadua)
