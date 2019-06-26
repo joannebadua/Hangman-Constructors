@@ -9,7 +9,7 @@ var word = require("./word.js");
 //to check against individual characters
 var lettersArray = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-var answersArray = ["Baehr", "Windsor", "Bowers", "Obergefell", "Gloucester", "Benitez", "Lawrence", "Brandon", "Richards", "Olesen"];
+var answersArray = ["Baehr", "Windsor", "Bowers", "Obergefell", "Gloucester", "Benitez", "Lawrence", "Brandon", "Richards", "Olesen", "Hodges", "Hively", "Rhoades", "Baker", "Southworth", "Cammermeyer"];
 // randomly chooses word from answers array
 // first, create an empty Array, use a forloop for everytime, 
 //create a new letter object and push it into the empy array
