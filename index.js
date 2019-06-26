@@ -40,7 +40,12 @@ function userInput(){
     },
 ])
 .then(function(letterGuess){
+  //fire off what we type
     console.log("what we typed", letterGuess)
+    gameWord.check(letterGuess.userGuess);
+    gameWord.checkScore();
+    gameWord.print();
+    userInput();
     //check the letter if the letter is in the word we're checking 
     //but function will live in the word.js file bc this is where the letters and array are
     //check the m in the array
@@ -49,7 +54,7 @@ function userInput(){
 }
 // THIS kicks off and goes to word.js - then goes to answer in ln 3 of word.js
 // answer in the word.js is the placeholder
-var gameWord = new word("basketball")
+var gameWord = new word(answersArray[randomAnswerIndex])
 console.log("gameWord", gameWord);
 gameWord.print();
 userInput();

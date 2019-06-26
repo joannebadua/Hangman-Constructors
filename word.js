@@ -19,9 +19,9 @@ var Word = function(answer){
             //comparing it to ln 14
             if ( this.word[i].letter === userGuess){
                 //if we find a letter match, change it from false to true
-                this.letter[i].guessedLetter = true;
+                this.word[i].guessedLetter = true;
             }
-        
+        }
     }
     //when we print, then all the false will get underscore, and vise versa
    this.print = function(){
@@ -39,5 +39,20 @@ var Word = function(answer){
        }
        console.log(displayString)
    }
+   this.checkScore = function (){
+       //tallying how many trues we got from guessing letter, to determine if the word is fully guessed
+       var trueTally = 0;
+       var trueLimit = this.word.length;
+       for (let i = 0; i < this.word.length; i++) {
+           const element = this.word[i];
+           if (this.word[i].guessedLetter === true) {
+               trueTally++; 
+           }
+       }
+            if (trueTally === trueLimit) {
+                console.log("WORD GUESSED - GAME OVER!")
+            }
+   }
 }
+
 module.exports = Word;
