@@ -4,7 +4,7 @@ var word = require("./word.js");
   //declare variale for the array which stores
     //the history of user letter guesses
     //into and assign it into an empty array
-var guessedLetter = []
+// var guessedLetter = []
 //declare variable that is a string of 26 lower and 26 uppercase letters
 //to check against individual characters
 var lettersArray = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -39,9 +39,19 @@ function userInput(){
         message: "Pick a lowercase or uppercase letter to see if you can guess famous athlete!"
     },
 ])
-.then(function(input){
+.then(function(letterGuess){
+    console.log("what we typed", letterGuess)
+    //check the letter if the letter is in the word we're checking 
+    //but function will live in the word.js file bc this is where the letters and array are
+    //check the m in the array
     
 })
 }
+// THIS kicks off and goes to word.js - then goes to answer in ln 3 of word.js
+// answer in the word.js is the placeholder
 var gameWord = new word("basketball")
 console.log("gameWord", gameWord);
+gameWord.print();
+userInput();
+
+
