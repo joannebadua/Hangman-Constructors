@@ -1,27 +1,13 @@
 // create 'Letter' constructor function that takes in a letter
 //and creates an object with that letter 
 var Letter = function(letter) {
-  // this.students will hold all of our student objects
+  // this.letter will hold all of our letter objects
   this.letter = letter;
   this.guessedLetter = false;
-  this.print = function () {
-     switch(letterPlaceholder) {
-       case "letter":
-       return this.letter;
-       break;
-       case "nonLetter":
-       return "_";
-       break;
-     }
-  },
-  letterPlaceholder();
+  //displays either an underlying character or a blank placeholder
+//such as an underscore depending on whether the user
+//has guessed the letter
 
-this.guess = function(guess) {
-    if((guess === this.letter {
-      this.guessedLetter = true;
-
-  };
-};
 };
 
 // exporting our Letter constructor. We will require it in word.js
