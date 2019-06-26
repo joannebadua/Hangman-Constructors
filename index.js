@@ -9,7 +9,7 @@ var word = require("./word.js");
 //to check against individual characters
 var lettersArray = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-var answersArray = ["Michael Jordan","Stephen Curry","Lebron James", "Serena Williams", "Buster Posey"];
+var answersArray = ["Baehr", "Windsor", "Bowers", "Obergefell", "Gloucester", "Benitez", "Lawrence", "Brandon", "Richards", "Olesen"];
 // randomly chooses word from answers array
 // first, create an empty Array, use a forloop for everytime, 
 //create a new letter object and push it into the empy array
@@ -36,7 +36,7 @@ function userInput(){
         {
         type: "input",
         name: "userGuess",
-        message: "Pick a lowercase or uppercase letter to see if you can guess famous athlete!"
+        message: "Pick a letter (lower or upper case) to guess a seminal court case advancing gay marriage!"
     },
 ])
 .then(function(letterGuess){
