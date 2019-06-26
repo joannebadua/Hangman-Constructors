@@ -18,7 +18,11 @@ Feel free to contact me about your experience with the game, or want to know mor
 
 ### Sample
 Since this is a command-line application, meaning it cannot be deployed on the web, 
+<<<<<<< HEAD
 [click here to watch a video of how it works via Youtube](https://youtu.be/ifzUu9qyHU8)
+=======
+[click here to watch a video of how it works via Youtube](https://youtu.be/O87tW4UWDfU)
+>>>>>>> c4a0f46bdcdbff31e25b41e54c29193a0ea890ed
 
 ### Technology and How the Sausage Got Made
 This game is made possible by rainbows, love and the following:
